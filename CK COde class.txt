@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wkingtom Technologies</title>
+</head>
+
+<style>
+body {
+    background-image: url('img_girl.jpg');
+}
+
+h1 { 
+    color: green;
+    background-color: hotpink;
+}
+
+h2 { color: black;
+    background-color: khaki;
+}
+
+h3 { color: purple;
+    background-color: green;
+}
+   
+
+p1 { color: red;
+     font-family: Trebuchet MS;
+     font-size: 34px;
+}
+
+p2 { color: yellowgreen;
+     font-family: sans-serif;
+     font-size: 45px;
+}
+
+
+    /* Unvisited Link */
+    a:link {
+       color: pink;
+     }
+   
+    /* Visited link */
+    a:visited {
+       color: black;
+     }  
+
+</style>
+<body>
+    <h1> This is my website</h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+  <p1> Ist Paragraph</p1>
+
+    <h2> This is also my website</h2>
+
+<p2>2nd Paragraph</p2>
+<img src="img_chania.jpg">
+    <h3> This is definitely my website</h3>
+
+<a href="https://wkingtomtechnologies.com/">This is a Link</a>
+
+</body>
+</html>
